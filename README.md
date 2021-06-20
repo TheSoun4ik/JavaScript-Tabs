@@ -1,8 +1,8 @@
-window.addEventListener('DOMContentLoaded', function() {
-    'use strict';
-    let tab = document.querySelectorAll('ЗДЕСЬ КНОПКА');
-    let info = document.querySelector('HEADER ДЛЯ ДЕЛЕГИРОВАНИЯ');
-    let tabContent = document.querySelectorAll('КОНТЕНТ');
+    window.addEventListener('DOMContentLoaded', function() {
+        'use strict';
+        let tab = document.querySelectorAll('ЗДЕСЬ КНОПКА');
+        let info = document.querySelector('HEADER ДЛЯ ДЕЛЕГИРОВАНИЯ');
+        let tabContent = document.querySelectorAll('КОНТЕНТ');
 
     function hideTabContent(a) {
         for (let i = a; i < tabContent.length; i++) {
